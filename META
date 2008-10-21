@@ -1,0 +1,6 @@
+name = "glob"
+version = "0.1.0"
+description = "OCaml wrapper for glob(3)."
+archive(byte) = "glob.cma"
+archive(native) = "glob.cmxa"
+linkopts = ""
