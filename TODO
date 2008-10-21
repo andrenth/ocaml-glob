@@ -1,0 +1,7 @@
+== TODO
+
+* Currently ocaml-glob uses the GLOB_BRACE and GLOB_TILDE flags, and passes
+  no error function to glob(3). Would more control be useful here?
+
+* Would it be better to return an option type, returning None when there's no
+  match?

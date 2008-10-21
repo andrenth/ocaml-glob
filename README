@@ -1,0 +1,7 @@
+                                ocaml-glob
+                                ~~~~~~~~~~
+
+This is a trivial wrapper around libc's glob(3) function for OCaml. The Glob
+module interface contains a single function, glob. This function takes a
+string argument possibly containing shell wildcards, and returns an array
+containing the names of the file system entries matching it.
